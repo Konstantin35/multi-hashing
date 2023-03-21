@@ -1,5 +1,6 @@
+#include "nexapow.h"
 #include "../common/utils/common.h"
-#include "../nexa/hashwrapper.h"
+#include "hashwrapper.h"
 
 uint256 SatoshiBlockHeader::GetHash() const { return SerializeHash(*this); }
 
