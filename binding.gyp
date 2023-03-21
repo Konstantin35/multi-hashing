@@ -18,6 +18,7 @@
                 "algorithms/main/lyra2re/lyra2re.c",
                 "algorithms/main/minotaur/minotaur.c",
                 "algorithms/main/nist5/nist5.c",
+                "algorithms/main/nexa/nexapow.cpp",
                 "algorithms/main/quark/quark.c",
                 "algorithms/main/qubit/qubit.c",
                 "algorithms/main/scrypt/scrypt.c",

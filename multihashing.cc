@@ -44,6 +44,9 @@
 #include "algorithms/main/kawpow/kawpow.hpp"
 #include "algorithms/main/kawpow/kawpow_progpow.hpp"
 
+// NexaPow Imports
+#include "algorithms/main/nexa/nexapow.h"
+
 // Common Imports
 #include "algorithms/main/common/ethash/helpers.hpp"
 

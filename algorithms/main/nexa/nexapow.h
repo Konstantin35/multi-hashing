@@ -8,11 +8,9 @@
 #define NEXA_PRIMITIVES_BLOCK_H
 
 #include "arith_uint256.h"
-#include "primitives/transaction.h"
-#include "protocol.h"
 #include "satoshiblock.h"
 #include "serialize.h"
-#include "uint256.h"
+#include "../common/ethash/uint256.h"
 
 class CXThinBlock;
 class CThinBlock;
