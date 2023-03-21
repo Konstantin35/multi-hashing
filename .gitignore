@@ -3,3 +3,4 @@ node_modules/
 coverage/
 build/
 verthash.dat
+package-lock.json
