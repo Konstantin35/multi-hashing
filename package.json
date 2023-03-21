@@ -1,0 +1,52 @@
+{
+    "name": "coinminerz-multi-hashing-2.0",
+    "version": "0.0.7",
+    "main": "./index.js",
+    "scripts": {
+        "fetch-secp256k1": "git submodule update --recursive --init",
+        "test": "node test",
+        "prebuild": "prebuildify --napi --strip",
+        "prebuild-ia32": "prebuildify --arch=ia32 --napi --strip"
+    },
+    "keywords": [
+        "scrypt",
+        "script-n",
+        "x11",
+        "quark",
+        "keccak_hash",
+        "skein",
+        "bcrypt",
+        "keccak",
+        "blake",
+        "shavite",
+        "fugue"
+    ],
+    "homepage": "https://github.com/Coinminerz/coinminerz-multi-hashing-2.0",
+    "bugs": {
+        "url": "https://github.com/Coinminerz/coinminerz-multi-hashing-2.0/issues"
+    },
+    "license": "GPL-2.0",
+    "author": {
+        "name": "Nick Sarris"
+    },
+    "jest": {
+        "collectCoverage": true,
+        "verbose": true
+    },
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Coinminerz/coinminerz-multi-hashing-2.0.git"
+    },
+    "dependencies": {
+        "bindings": "^1.3.0",
+        "libsodium": "^0.7.3",
+        "nan": "^2.15.0",
+        "node-gyp": "^9.0.0"
+    },
+    "devDependencies": {
+        "cmake-js": "^6.3.0",
+        "jest": "^27.5.1"
+    },
+    "readmeFilename": "README.md"
+}
