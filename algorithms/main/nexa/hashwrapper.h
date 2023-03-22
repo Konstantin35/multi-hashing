@@ -7,7 +7,7 @@
 #ifndef NEXA_HASH_H
 #define NEXA_HASH_H
 
-#include "../common/utils/sha256c2.h"
+#include "sha256.h"
 #include "prevector.h"
 #include "serialize.h"
 #include "ripemd160.h"
