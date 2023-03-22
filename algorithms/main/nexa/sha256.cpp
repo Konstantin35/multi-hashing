@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "sha256.h"
-#include "../common/utils/common.h"
+#include "../common/ethash/include/common.h"
 
 #include <assert.h>
 #include <string.h>

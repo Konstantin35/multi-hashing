@@ -6,7 +6,7 @@
 
 #include "arith_uint256.h"
 
-#include "../common/utils/common.h"
+#include "../common/ethash/include/common.h"
 #include "../common/ethash/uint256.h"
 #include "../common/utils/utilstrencodings.h"
 

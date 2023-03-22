@@ -5,7 +5,7 @@
 
 #include "ripemd160.h"
 
-#include "../common/utils/common.h"
+#include "../common/ethash/include/common.h"
 
 #include <string.h>
 
