@@ -119,13 +119,11 @@ public:
     inline void SerializationOp(Stream &s, Operation ser_action)
     {
         READWRITE(*(SatoshiBlockHeader *)this);
-        READWRITE(vtx);
     }
 
     void SetNull()
     {
         SatoshiBlockHeader::SetNull();
-        vtx.clear();
         fChecked = false;
         fExcessive = false;
         fXVal = false;
