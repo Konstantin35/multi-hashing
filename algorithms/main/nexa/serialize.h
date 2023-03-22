@@ -7,7 +7,7 @@
 #ifndef NEXA_SERIALIZE_H
 #define NEXA_SERIALIZE_H
 
-#include "compat/endian.h"
+#include "../common/ethash/compat/endian.h"
 
 #include <algorithm>
 #include <assert.h>

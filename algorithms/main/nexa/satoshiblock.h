@@ -8,13 +8,14 @@
 #define NEXA_PRIMITIVES_SATOSHI_BLOCK_H
 
 #include "serialize.h"
-#include "uint256.h"
+#include "../common/ethash/uint256.h"
 class arith_uint256;
 
 const uint32_t BIP_009_MASK = 0x20000000;
 const uint32_t BASE_VERSION = 0x20000000;
 const uint32_t FORK_BIT_2MB = 0x10000000; // Vote for 2MB fork
 const bool DEFAULT_2MB_VOTE = false;
+static const int PROTOCOL_VERSION = 80003;
 
 /** Get the work equivalent for the supplied nBits of difficulty */
 arith_uint256 GetWorkForDifficultyBits(uint32_t nBits);

@@ -179,8 +179,6 @@ public:
     bool fXVal;
 
 public:
-    // network and disk
-    std::vector<CTransactionRef> vtx;
 
     // memory only
     // 0.11: mutable std::vector<uint256> vMerkleTree;
@@ -199,7 +197,6 @@ public:
     inline void SerializationOp(Stream &s, Operation ser_action)
     {
         READWRITE(*(CBlockHeader *)this);
-        READWRITE(vtx);
     }
 
     /** Returns the block's height as specified in its header */
@@ -209,7 +206,6 @@ public:
     void SetNull()
     {
         CBlockHeader::SetNull();
-        vtx.clear();
         fChecked = false;
         fXVal = false;
     }
